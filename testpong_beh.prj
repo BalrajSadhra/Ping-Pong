@@ -1,0 +1,2 @@
+vhdl work "vga_driver.vhd"
+vhdl work "testpong.vhd"

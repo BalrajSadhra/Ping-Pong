@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/impact.xsl
+OUTFILE=/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/student1/m7jo/coe758/simplegame/SimpleVideoGame
+LICENSE=iMPACT
+USER_INFO=iMPACT

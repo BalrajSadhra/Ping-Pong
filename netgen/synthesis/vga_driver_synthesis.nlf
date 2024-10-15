@@ -1,0 +1,20 @@
+Release 13.4 - netgen O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -ar Structure -tm vga_driver -w -dir
+netgen/synthesis -ofmt vhdl -sim vga_driver.ngc vga_driver_synthesis.vhd  
+
+Reading design 'vga_driver.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/netgen/synthesis/vga_driv
+er_synthesis.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 341944 kilobytes

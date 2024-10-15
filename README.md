@@ -1,1 +1,1 @@
-# Ping-Pong
+# VGA Ping-Pong Application

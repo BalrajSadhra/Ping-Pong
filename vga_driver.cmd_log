@@ -1,0 +1,848 @@
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 "vga_driver.ngc" vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/bsadhra/COE 758/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+netgen -intstyle ise -ar Structure -tm vga_driver -w -dir netgen/synthesis -ofmt vhdl -sim vga_driver.ngc vga_driver_synthesis.vhd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 
+xst -intstyle ise -ifn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.xst" -ofn "/home/student1/m7jo/coe758/simplegame/SimpleVideoGame/vga_driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gameucf.ucf -p xc3s500e-fg320-5 vga_driver.ngc vga_driver.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_driver_map.ncd vga_driver.ngd vga_driver.pcf 
+par -w -intstyle ise -ol high -t 1 vga_driver_map.ncd vga_driver.ncd vga_driver.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga_driver.twx vga_driver.ncd -o vga_driver.twr vga_driver.pcf -ucf gameucf.ucf 
+bitgen -intstyle ise -f vga_driver.ut vga_driver.ncd 

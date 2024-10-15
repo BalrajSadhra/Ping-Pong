@@ -1,0 +1,28 @@
+Command line:
+   testpong_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51280
+
+Fri Dec  1 17:48:02 2023
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 213.885 Meg
+
+ Total Signals          : 34
+ Total Nets             : 45
+ Total Signal Drivers   : 18
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 9
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 555
+
+ Total Simulation Time: 3.67 sec
+
+ Current Memory Usage: 289.382 Meg
+
+Fri Dec  1 17:55:23 2023
+
